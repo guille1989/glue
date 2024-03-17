@@ -23,6 +23,7 @@ $ docker images
 ```
 eg:
 REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+
 mongo        latest    79112eff9c89   2 weeks ago   756MB
 
 Create and run a MongoDB Docker container:
@@ -36,6 +37,7 @@ $ docker ps
 ```
 eg:
 CONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS          PORTS                      NAMES
+
 cf41d217cf20   mongo     "docker-entrypoint.s…"   5 hours ago   Up 41 seconds   0.0.0.0:27020->27017/tcp   mongodb
 
 ## Running the app
