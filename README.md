@@ -48,3 +48,7 @@ $ npm run start:dev
 ## Open swagget to find api endpoits
 
 Navigate to: http://localhost:3000/api
+
+## Test apis
+
+The URL format follows this pattern: abc.com, abc.or, abc.es, etc.
