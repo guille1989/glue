@@ -21,11 +21,22 @@ Check for the MongoDB image in Docker:
 ```bash
 $ docker images
 ```
+eg:
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+mongo        latest    79112eff9c89   2 weeks ago   756MB
 
 Create and run a MongoDB Docker container:
 ```bash
 $ docker run -p 27070:27017 -name mymongodb mongo
 ```
+
+Check if the MongoDB container is running:
+```bash
+$ docker ps
+```
+eg:
+CONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS          PORTS                      NAMES
+cf41d217cf20   mongo     "docker-entrypoint.s…"   5 hours ago   Up 41 seconds   0.0.0.0:27020->27017/tcp   mongodb
 
 ## Running the app
 Start the app in watch mode:
@@ -33,3 +44,7 @@ Start the app in watch mode:
 # watch mode
 $ npm run start:dev
 ```
+
+## Open swagget to find api endpoits
+
+Navigate to: http://localhost:3000/api
